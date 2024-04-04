@@ -90,5 +90,36 @@
 // console.log(2+2*2 != "8"); // true
 
 
-//lesson 16
+//lesson 20
+const num = 50;
+
+// if(num<49){ 
+//     console.log("Error")
+// } else if(num>100) {
+// console.log("Много")
+// } else {
+//     console.log("OK!")
+// };
+
+// // Тернарный оператор
+// (num== 50) ? console.log("OK!") :  console.log("Error");
+
+// // бинарный оператор это + , например 4+4
+// // унарный оператор , начинается на  +,  +"4" , работает только с одной строкой
+
+switch(num){
+    case 49: 
+    console.log("Мало!");
+    break;
+    case 100 : 
+    console.log("Много!");
+    break;
+    case 50: 
+    console.log("В точку!");
+    break;
+    default:
+        console.log("Не в этот раз!");
+    break;
+}
+
 
